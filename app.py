@@ -84,7 +84,7 @@ def calcular_ajustes_y_proyecciones(df_exposicion_compania, df_exposicion_base_d
 
     return df_salud_ola_calor_ajustada
 
-st.title("KLIM TOOL")
+st.title("KLIM TOOL SALUD")
 
 st.image('logo.PNG', width=120)
 ##################################### --- Sección para cargar los archivos base --- ###################################################

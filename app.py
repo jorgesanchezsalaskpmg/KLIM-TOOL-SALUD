@@ -334,7 +334,7 @@ def guardar_resultados_streamlit():
         # Para SALUD DIRECTO -65
         st.session_state['resultados']['Resultados_Directo_Menos65'] = calcular_proyecciones_ponderadas(
             st.session_state['archivos_base']["SALUD DIRECTO -65"],
-            st.session_state['df_SALUD_exposicion_minus65']
+            st.session_state['df_salud_exposicion_minus65']
         )
 
         # ... Continúa con el resto de los resultados
